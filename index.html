@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="maincontainer">
+    <input type="text" placeholder="Enter location" id = "inputPlace">
+    <button onclick="getInfo()">Get Weather</button>
+    <div id = "weatherCard">
+        <div id="location"></div>
+        <div id="temp"></div>
+        <div id = "humidity"></div>
+        <div id = "desc"></div>
+        <div id = "last_update"></div>
+        <img src="" alt="weathericon" id="weathericon">
+    </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
